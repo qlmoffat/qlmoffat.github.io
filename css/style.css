@@ -1,0 +1,30 @@
+.full{
+	height: 100vh;
+}
+.half{
+	height: 50vh;
+}
+.first{
+	background-color:#4D0AF7;
+}
+.second{
+	 background-color: #fff;
+}
+.center{
+	margin:0;
+}
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+.nav a{
+	font-size: 16px;
+	color:#000;
+}
