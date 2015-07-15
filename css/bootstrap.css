@@ -5013,7 +5013,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #4D0AF7;
+  background-image:url('../image/background2.jpg');
   min-height: 350px;
 }
 .jumbotron h1,
