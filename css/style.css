@@ -13,10 +13,6 @@
 .center{
 	margin:0;
 }
-body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
-
 .portfolio-item {
     margin-bottom: 25px;
 }
@@ -27,4 +23,8 @@ footer {
 .nav a{
 	font-size: 16px;
 	color:#000;
+}
+nav{
+	background-color:#4040ff;
+	height:20vh;	
 }
