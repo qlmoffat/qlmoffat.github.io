@@ -73,6 +73,7 @@ article.narrowtitle{
 section.content{
 	height: 85vh;
 	width: 100%;
+	background-color:#666;
 }
 article.profileblurb{
 	height:60%;
@@ -80,10 +81,9 @@ article.profileblurb{
 	margin:0;
 	float:left;
 	margin-top: 8%;
-	margin-bottom: 8%;
 	margin-left: 2%;
 	padding: 2%;
-	background-color: #bbb;
+	background-color: #f6f8f8;
 }
 p.profblurb {
 	color:#4c4c4c;
