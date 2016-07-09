@@ -2,149 +2,43 @@
 http://flatuicolors.com/
 http://www.flaticon.com/
 Colours:
-	Blue - #3498db
-	Blue D - #2980b9
-	Deep Blue L - #34495e
+	Blue - #2980b9
 	Deep Blue - #2c3e50
 	White - #ecf0f1
-	Black - #000
 	Gray - #95a5a6
+	Turq - #1abc9c
 Fonts:
 	font-family: 'Raleway', sans-serif; */
 /* Global Classes */
-body{background-color: #2c3e50; /* Light - Clouds */  }
 ul {margin: 0;}
 li {float: left;}
-/* Header */
-section.main{
-	width:100%;
-	height:20vh;
-}
-article.main{
-	width:50%;
-	float:left;
-	margin-left: 10%;
-	padding-top: 2%;
-}
-h1.main{
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
-	color:#ecf0f1;
-	font-size: 50px;
-}
-nav.nav{
-	width:40%;
-	float:right;
-	padding-top: 2%;
-}
-li a img.navimg{
-    display: block;
-    padding:10px;
-}
-img.navimg{
-    margin:auto;
-    height:40px;
-    width:40px;
-    overflow: hidden;
-}
-/* Banner */
-section.narrow{
-	width:100%;
-	height:80vh;
-	background-color:#ecf0f1;
-	clear:both; 
-}
-h1.content{
-	font-family: 'Raleway', sans-serif;
-	font-size: 50px;
-	font-weight: 400;
-	color:#2980b9;
-	text-align: center;
-	padding-top:5%;
-}
-article.narrowtitle{
-	width: 100%;
-}
-img.header{
-	width:75%;
-	height:75%;
-	margin: auto;
-	display: block;
-}
-/* Icon Groupings */
-section.content{
-	height: 85vh;
-	width: 100%;
-	background-color:#2980b9;
-}
-article.profileblurb{
-	height:60%;
-	width: 27%;
-	margin:0;
-	float:left;
-	margin-top: 8%;
-	margin-bottom: 8%;
-	margin-left: 2%;
-	padding: 2%;
-	background-color: #f6f8f8;
-}
-p.profblurb {
-	color:#2c3e50;
-	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
-	font-weight: 400;
-	text-align: center;
-	padding-top: 5%;
-}
-.profblurb h1,h2,h3{
-	color:#000;
-	font-family: 'Raleway', sans-serif;
-	font-weight:400;
-	font-size: 30px;
-	text-align: center;
-}
-img.profblurb{
-    display: block;
-    margin:auto;
-    height:55%;
-    width:55%;
-    margin-top: 5%;
-}
-/* Testimonial */
-section.testimonial{
-	background:#1abc9c;
-	height: 85vh;
-}
-h1.testimonial{
-	color:#ecf0f1;
-	font-family: 'Raleway', sans-serif;
-	font-weight:400;
-	font-size: 50px;
-	text-align: center;
-	padding-top: 5%;
-}
-/* Narrow */
-section.small{
-	background:#ecf0f1;
-	height: 25vh;
-}
-/* Footer */
-nav.center
-{
-	width:40%;
-	float:right;
-}
-img.contactnav{
-    height:40px;
-    width:40px;
-    padding:10px
-}
-ul.contactnav{
-	margin:0;
-	width: 100%;
-}
-section.footer{
-	width:100%;
-	height:15vh;
-	background-color:#2c3e50;
-}
+section{width:100%;}
+.overflow{overflow:hidden;}
+/* Global Font Classes */
+h1.white{font-family: 'Raleway', sans-serif;font-weight: 200;color:#ecf0f1;font-size:3em;text-align: center;} /* RW|400|White|3em */
+h1.blue{font-family: 'Raleway', sans-serif;font-size: 3.5em;font-weight: 400;color:#2980b9;text-align: center;} /* RW|400|Blue|3.5em*/
+p.darkblue{color:#2c3e50;font-family: 'Raleway', sans-serif;font-size:1.5em;font-weight: 400;text-align: center;}/* RW|400|DarkBlu|1.5em */
+h1,h2,h3.bluedark{color:#2c3e50;font-family: 'Raleway', sans-serif;font-weight:400;font-size: 2em;text-align: center;}/* RW|400|DarkBlu|2.5em */
+/* Section Height Classes - small/medium/full */
+section.small{height:15vh;}
+section.medium{height: 85vh;}
+section.full{height: 100vh;}
+/* Color Classes - light/blue/turq/dark */
+.light{background:#ecf0f1;}
+.blue{background:#2980b9;}
+.turq{background:#1abc9c;}
+.dark{background:#2c3e50;}
+/* Icon Nav Bar - nav */ 
+nav.nav{width:30%;float:right;}
+img.nav{margin:auto;height:45%;display:block;padding:3%;}
+/* Section Specific Classes */ 
+/* Header - header */
+article.header{width:50%;float:left;}
+/* Banner - banner*/
+h1.banner{background:inherit;padding-top:2%;}
+img.banner{height:80%;margin: auto;display: block;}
+/* Icon Triplets -itriple */
+article.itriple{height:70%;width:28%;margin:0;float:left;margin-top:5%;margin-left:2%;padding:1%;background-color: #ecf0f1;}
+img.itriple{display: block;margin:auto;height:50%;margin-top:8%;}
+/* Testimonial - testimonial */
+/* Footer - footer*/
