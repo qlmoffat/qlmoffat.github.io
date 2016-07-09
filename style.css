@@ -11,23 +11,9 @@ Fonts:
 	font-family: 'Titillium Web', sans-serif;
 	font-family: 'Nobile', sans-serif; 
 */
+/* Global Classes */
 body{
 	background-color: #f6f8f8
-}
-section.main{
-	width:100%;
-	height:20vh;
-}
-article.title{
-	width:50%;
-	float:left;
-	margin-left: 10%;
-	padding-top: 2%;
-}
-nav.nav{
-	width:40%;
-	float:right;
-	padding-top: 2%;
 }
 ul {
     margin: 0;
@@ -35,15 +21,38 @@ ul {
 li {
     float: left;
 }
-li a img.navimg{
-    display: block;
-    padding:5px;
+/* Header */
+section.main{
+	width:100%;
+	height:20vh;
 }
-h1.header{
+article.main{
+	width:50%;
+	float:left;
+	margin-left: 10%;
+	padding-top: 2%;
+}
+h1.main{
 	font-family: 'Nobile', sans-serif; 
 	color:#4c4c4c;
 	font-size: 50px;
 }
+nav.nav{
+	width:40%;
+	float:right;
+	padding-top: 2%;
+}
+li a img.navimg{
+    display: block;
+    padding:5px;
+}
+img.navimg{
+    margin:auto;
+    height:40px;
+    width:40px;
+    overflow: hidden;
+}
+/* Banner */
 section.narrow{
 	width:100%;
 	height:50vh;
@@ -57,12 +66,16 @@ h1.content{
 	text-align: center;
 	padding-top:10%;
 }
+article.narrowtitle{
+	width: 100%;
+}
+/* Icon Groupings */
 section.content{
-	height: auto;
+	height: 85vh;
 	width: 100%;
 }
 article.profileblurb{
-	height:70vh;
+	height:40vh;
 	width: 27%;
 	margin:0;
 	float:left;
@@ -70,12 +83,14 @@ article.profileblurb{
 	margin-bottom: 8%;
 	margin-left: 2%;
 	padding: 2%;
+	background-color: #bbb;
 }
 p.profblurb {
 	color:#4c4c4c;
 	font-family: 'Titillium Web', sans-serif;
-	font-size: 26px;
+	font-size: 22px;
 	text-align: center;
+	padding-top: 5%;
 }
 .profblurb h1,h2,h3{
 	color:#000;
@@ -86,20 +101,16 @@ p.profblurb {
 img.profblurb{
     display: block;
     margin:auto;
-    height:50%;
-    width:50%;
+    height:30%;
+    width:30%;
+    padding-top: 10%;
 }
+/* Footer */
 nav.center
 {
 	width:40%;
 	float:right;
 	padding-top: 2%;
-}
-img.navimg{
-    margin:auto;
-    height:40px;
-    width:40px;
-    overflow: hidden;
 }
 img.contactnav{
     height:40px;
@@ -108,9 +119,6 @@ img.contactnav{
 }
 ul.contactnav{
 	margin:0;
-	width: 100%;
-}
-article.narrowtitle{
 	width: 100%;
 }
 article.footer{
